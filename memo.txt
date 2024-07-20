@@ -1,5 +1,8 @@
 以下のコマンドを npx hardhat --network localhost faucet 0xd566458ccd17e8d946bc498fe8b783722a0877f1 の前に実行しなければいけない
 ネットワーク上にデプロイしてから動かすイメージ
+
+以下成功例
+
 npx hardhat run scripts/deploy.js --network localhost
 
 You are using a version of Node.js that is not supported by Hardhat, and it may work incorrectly, or not work at all.
