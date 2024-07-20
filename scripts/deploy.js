@@ -24,6 +24,8 @@ async function main() {
 
   const Token = await ethers.getContractFactory("Token");
   const token = await Token.deploy();
+
+  console.log("Token deployed to:", token.address);
   await token.deployed();
 
   console.log("Token address:", token.address);

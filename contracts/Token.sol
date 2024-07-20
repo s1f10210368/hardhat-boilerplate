@@ -72,7 +72,7 @@ contract Token {
      * The `view` modifier indicates that it doesn't modify the contract's
      * state, which allows us to call it without executing a transaction.
      */
-    function balanceOf(address account) external view returns (uint256) {
+    function balanceOf(address account) public view returns (uint256) {
         return balances[account];
     }
 }

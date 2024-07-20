@@ -8,4 +8,11 @@ require("./tasks/faucet");
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.17",
+  networks: {
+    localhost: {
+      url: "http://localhost:8545"
+    }
+  }
 };
+
+// 一度 npx hardhat run scripts/deploy.js --network localhost を実行すると通った

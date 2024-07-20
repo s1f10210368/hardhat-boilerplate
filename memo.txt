@@ -1,0 +1,14 @@
+以下のコマンドを npx hardhat --network localhost faucet 0xd566458ccd17e8d946bc498fe8b783722a0877f1 の前に実行しなければいけない
+ネットワーク上にデプロイしてから動かすイメージ
+npx hardhat run scripts/deploy.js --network localhost
+
+You are using a version of Node.js that is not supported by Hardhat, and it may work incorrectly, or not work at all.
+
+Please, make sure you are using a supported version of Node.js.
+
+To learn more about which versions of Node.js are supported go to https://hardhat.org/nodejs-versions
+Compiled 1 Solidity file successfully
+Deploying the contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Account balance: 10000000000000000000000
+Token deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Token address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
